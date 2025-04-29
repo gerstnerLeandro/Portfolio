@@ -1,0 +1,149 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cascadia+Mono:ital,wght@0,200..700;1,200..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    font-family: 'Cascadia Mono', monospace;
+}
+.formato,.proyectos{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(2, 2, 0);
+    color:rgb(3, 255, 242);
+}
+.menu-lista a{
+    color: rgb(248, 61, 61);   
+    text-decoration: none; 
+}
+
+.titulo span{
+    color:rgb(51, 102, 243);
+}
+
+.menu-lista a:hover{
+    color: aqua;
+    transition: 0.5s;
+}
+.menu-lista{    
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    margin-top: auto;
+
+}
+.menu-bar{
+    display: flex;
+    justify-content:space-between;  
+}
+.menu-icon li{    
+    list-style: none;;
+}
+main{
+    margin: 0 auto;
+    width: 80vw;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+}
+h2{
+    font-size: 3em;
+}
+
+.about, .contacto{
+    background-color: rgb(110, 185, 160);
+    display: flex;
+    align-items: center;
+    width: 100vw;
+}
+.about-info{
+    padding: 3em;
+}
+.about-info h2{
+    font-size: 3em;
+}
+.divisor{
+    width: 40%;
+    height: 2px;
+    background-color: cadetblue;
+    margin: 2px;
+    margin-bottom: 3em;
+}
+.about-info p{
+    width: 40%;
+    margin-bottom: 1em;
+}
+.proyectos-cabecera{
+    width: 100vw;
+    
+    padding: 5em;
+}
+.contenedor{
+    width: 80vw;
+    
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.imgn-ilustrativa {
+  font-size: 2em;
+  justify-content: space-evenly;
+}
+.bloque{
+    width: 32.4%;
+      
+    background-color:rgb(59, 56, 13);
+}
+.bloque .link{
+padding: 10px 20px;
+background-color: rgba(243, 247, 10, 0.986);
+border:none;
+border-radius: 20px;
+margin-top: 10px;
+cursor: pointer;
+}
+.bloque .link:hover{
+    background-color: cadetblue;
+    color: white;
+    transition: 0.5s;
+}
+.contacto{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: 100vw;
+   
+}
+
+.formulario input{
+padding: 10px 20px;
+margin-bottom: 1em;
+background: none;
+border: none;
+border-bottom: 2px solid white;
+color:antiquewhite;
+
+}
+.formulario textarea{
+    height: 150px;
+    background: none;
+    color: antiquewhite;
+    padding: 2em;
+    border: 2px solid white;
+}
+.bton-enviar{
+    padding:10px 20px;
+    margin: 1em;
+    border: none;
+    text-transform: uppercase;
+    background-color: rgb(229, 255, 0);
+    cursor: pointer;
+}
+.ficha-contacto{
+    width: 90vw;
+}

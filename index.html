@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="formato">
+        <header >    
+            <nav class="menu-bar"> 
+                <div class="titulo">
+                    <h1>Mi <span >portfolio</span></h1> 
+                </div>           
+                    <ul class="menu-lista">           
+                        <li><a href="#about">Acerca de mi</a></li>
+                        <li><a href="#projectos">Projectos</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+            </nav>
+        </header>
+        <main calss="main">
+            <div class="informacion">
+                <h2 class="subtitulo">Hola, soy Leandro</h2>
+                <p class="parrafo">Soy estudiante de TUP (Tecnico Universitario en Programacion). A medida que voy aprendiendo en esta carrera, puedo decir que me gusta cada vez mas el mundo de la tecnologia con sus funcionaliades e innovaciones.</p>
+            </div>            
+                <img src="yo.jpg" alt="gerstner leandro" width="400px" >
+        </main>       
+    </div>
+
+    <div class="about" id="about">
+        <img src="arduino.jpeg" alt="arduino" width="80px">  
+        <img src="c.png" alt="c#" width="80px">
+        <img src="c++.png" alt="c++" width="80px">
+        <img src="sfml.jpeg" alt="sfml" width="80px">
+        <img src="net.jpeg" alt="sfml" width="80px">
+        <div class="about-info">
+            <h2>Acerca de mi</h2>
+            <div class="divisor"></div>
+            <p> Tengo 34 años, soy de Buenos Aires, zona norte.</p>
+            <p>Tengo conocimientos en Arduino por medio de cursos realizados previamente, a esto le sumo lo aprendido en la carrera, concimientos en c#,c++,sfml,.net.</p>
+        </div>          
+    </div>
+    
+   <div class="proyectos" id="projectos">
+        <div class="proyectos-cabecera">
+            <h2>Mis proyectos </h2>
+            <div class="divisor"></div>
+        </div>
+        
+
+        <div class="contenedor">
+            <div class="bloque">
+                <div class="imagen">
+                    <a><img src="codigo.jpeg" alt=""> </a>                    
+                </div>
+                <div><p>En el siguiente repositorio podras encontrar los  </p></div>
+                <div><p>diferentes proyectos en los que fui trabajando</p></div>
+                <div class="imgn-ilustrativa">
+                    <a><img src="github.png" alt="github" width="10%" height="10%"> </a>
+                    <a><img src="mundo.png" alt="mundo" width="10%" height="10%"> </a>                        
+                </div>
+                <button class="link">
+                    <a href="https://github.com/gerstnerLeandro?tab=repositories" target="_blank">
+                        Repositorio
+                    </a>
+                </button>
+            </div>
+        </div>
+   </div>
+
+    <div class="contacto" id="contacto">
+        <div class="ficha-contacto">
+            <h2>Contacto</h2>
+            <div class="divisor"></div>
+        </div>
+            <h3>Enviame un mensaje...</h3>
+            <div>
+            
+                <form action="https://formsubmit.co/leandrogerstner00@gmail.com" method="post" class="formulario">
+                    <input type="hidden" name="captar" value="false">
+                    <div>
+                        <input type="text" id="Nombre" placeholder="Nombre" required>
+                    </div>
+                    <div>
+                        <input type="email" id="Email" placeholder="Email" required>
+                    </div>
+                    <div>
+                        <textarea placeholder="Escribe tu mensaje aqui.." id="mensaje"></textarea>
+                    </div>
+                    <div>
+                        <button type="submit" value="enviar" id="boton" class="bton-enviar">
+                            Enviar mensaje
+                        </button>
+                    </div> 
+                </form>
+            </div>
+            
+        
+        <div class="pie-contenedor">
+            <h2>Gerstner Leandro</h2>
+            <h3>Estudiante de Programacion</h3>
+        </div>         
+            <a href="https://www.instagram.com/leandrogerstner/profilecard/?igsh=ZjMxajM5NjR1Z3By" target="_blank"> 
+                <img src="instagram.png" alt="instagram" width="30px">
+            </a>
+            
+        
+    </div>
+        
+
+
+
+
+
+    
+
+</body>
+</html>
